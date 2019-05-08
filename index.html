@@ -2,44 +2,76 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Bontê</title>
   </head>
   <body>
-    <!-- <img src="/images/fundoppaulinha-01.png" alt="HTML5 Icon" > -->
-    <div class="row">
-      <div class="column" >
 
+    <div class="divStart">
+        <img id="gif" src="/images/gifBonteFinal.gif">
+    </div>
+
+    <div class="divBonte">
+      <img id="bontenome" src="/images/BONTE-01.svg" >
+    </div>
+
+    <div class="about">
+
+      <div class="column">
         <div class="sobreBonte">
-          <h2>Column 1</h2>
-          <p>Some text..</p>
+          <h3>Sobre Bontê</h3>
+          <p><strong><i>Bonté</i></strong>, do francês “bondade”, será uma experiência promotora da<strong> empatia como um caminho para um mundo melhor</strong>.</br></br>Queremos mostrar que não é difícil ser empático, apesar da rotina corrida, e que mesmo <strong>pequenas atitudes têm grande impacto.</strong></p>
         </div>
-
       </div>
-      <div class="column" >
 
+      <div class="column">
         <div class="acompanheProjeto">
-          <h2>Column 2</h2>
-          <p>Some text..</p>
+          <h3>Acompanhe o Projeto</h3>
+          <p>Para vir conosco nesta jornada tão necessária na atualidade, <strong>inscreva-se abaixo</strong> para receber novidades em seu e-mail (não vamos spammar, juro) e<strong> siga-nos nas nossas redes sociais</strong> - lá você fará parte da realidade que queremos construir.</br></br>Dê-nos a mão para tornar o mundo melhor!</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="subscription">
+
+
+        <form action="https://formspree.io/pcosv@academy.cin.ufpe.br" method="POST" />
+
+        <div class="subscriptionItem">
+          <h1>Vem fazer parte!</h1>
         </div>
 
-      </div>
+        <div class="subscriptionItem">
+          <input type="text" id="name" name="name" placeholder="Nome"/>
+        </div>
+
+        <div class="subscriptionItem">
+          <input type="email" id="mail" name="email" placeholder="E-mail"/>
+        </div>
+
+        <div class="subscriptionItem">
+          <button class="buttonSubmit" type="submit">Inscrever-se</button>
+        </div>
+
+        </form>
+
     </div>
 
+    <div class="divEnd">
 
-    <form action="https://formspree.io/pcosv@academy.cin.ufpe.br" method="POST" />
-    <div>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name"/>
+        <div class="endItem">
+          <h1>Em breve na App Store! :)</h1>
+        </div>
+
+        <div class="endItem">
+          <a href="https://www.instagram.com/projetobonte/">@projetobonte</a>
+        </div>
+
+        </form>
+
     </div>
-    <div>
-        <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="email" />
-    </div>
-    <div class="button">
-        <button type="submit">Enviar sua mensagem</button>
-    </div>
-    </form>
 
 
   </body>
