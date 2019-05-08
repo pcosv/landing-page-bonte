@@ -37,6 +37,14 @@ h1{
   width: 100%;
 }
 
+label{
+  text-align: center;
+  font-size: 50px;
+  font-family: kenzo;
+  color: #ffffff;
+  width: 100%;
+}
+
 p{
   /*width: 90%*/
   font-family: helvetica;
