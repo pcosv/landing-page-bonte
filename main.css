@@ -142,7 +142,7 @@ form{
   font-size: 20px;
 }
 
-.buttonSubmit, instagram{
+.buttonSubmit, #instagram{
   font-family: kenzo;
   border-style: none;
   border-radius: 46px;
