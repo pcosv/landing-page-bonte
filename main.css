@@ -47,21 +47,6 @@ p{
 
 }
 
-a{
-  text-align: center;
-  color: white;
-  font-family: kenzo;
-  border-style: none;
-  border-radius: 46px;
-  padding: 20px;
-  background-image: linear-gradient(to right, #2C0055 , #F42879);
-  width: 100%;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
 .divStart{
   margin: 0;
   width: 100%;
@@ -157,7 +142,7 @@ form{
   font-size: 20px;
 }
 
-.buttonSubmit{
+.buttonSubmit, instagram{
   font-family: kenzo;
   border-style: none;
   border-radius: 46px;
@@ -166,6 +151,9 @@ form{
   width: 100%;
   font-size: 20px;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .divEnd{
