@@ -1,1 +1,5 @@
+source/stylesheets/stylesheet.css
+source/stylesheets/stylesheet.css.map
+/node_modules
 .DS_Store
+.sass-cache
