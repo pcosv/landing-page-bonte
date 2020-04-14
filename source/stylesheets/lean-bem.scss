@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////
+// Lean BEM                                              //
+///////////////////////////////////////////////////////////
+
+@charset "utf-8";
+
+// Vendors ////////////////////////////////////////////////
+@import "vendors/normalize";
+@import "vendors/include-media";
+
+// Base blocks ////////////////////////////////////////////
+@import "base/utilities";      // Utilities: mixins and extends
+@import "base/colors";         // Color palette
+@import "base/grid_n_spacing"; // Grid settings & spacing patterns
+@import "base/font_files";     // All font files
+@import "base/typography";     // Typography system
+@import "base/global";         // Global HTML resets
+@import "base/pictures";       // SVGs settings
+
+// Blocks /////////////////////////////////////////////////
+@import "blocks/_block";

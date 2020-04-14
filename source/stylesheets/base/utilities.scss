@@ -1,0 +1,49 @@
+///////////////////////////////////////////////////////////
+// Mixins & functions utilities             (Base mixin) //
+///////////////////////////////////////////////////////////
+
+// Clear fix wizardry.
+@mixin clearfix {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
+// Ease dimensioning.
+@mixin dimensions($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// Text overflow.
+@mixin text-overflow($max-width: 100%) {
+  max-width: $max-width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Hide typography, to be seen with screen readers only.
+@mixin fontless {
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+}
+
+// Show hidden typography.
+@mixin fontful {
+  position: static;
+  clip: none;
+  white-space: normal;
+}
+
+// Remove default button appearance.
+@mixin buttonless {
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
